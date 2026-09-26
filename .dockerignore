@@ -1,0 +1,4 @@
+# The image needs only the template, for `packer init`; everything else is
+# bind-mounted at build time. Keeps build/ and the ISO cache out of the context.
+*
+!freebsd15.pkr.hcl
